@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Tap Electric App</title>
+</head>
+<body>
+  <script>
+    var ua = navigator.userAgent || navigator.vendor;
+    if (/iPad|iPhone|iPod/.test(ua)) {
+      window.location.replace("https://apps.apple.com/gb/app/tap-electric-ev-charging/id1543010272");
+    } else if (/android/i.test(ua)) {
+      window.location.replace("https://play.google.com/store/apps/details?id=app.tapelectric.tap");
+    } else {
+      window.location.replace("https://play.google.com/store/apps/details?id=app.tapelectric.tap");
+    }
+  </script>
+  <p>Redirecting to the Tap Electric app...</p>
+</body>
+</html>
